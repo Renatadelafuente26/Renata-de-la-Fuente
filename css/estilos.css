@@ -1,0 +1,384 @@
+html, body {
+  font-family:Helvetica;
+  padding: 0px;
+  margin: 0px;
+  font-size: 12px;
+}
+.img_inicial{
+    background-image: url("../imágenes/imagen inicial.svg");
+    background-size: cover;
+    background-position: center top;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+  }
+
+nav{
+  background-color: #707070;
+  display: flex;
+  padding: 20px;
+  color; white;
+  justify-content: space-between;
+
+}
+
+nav li {
+  padding-left: 20px;
+  list-style: none;
+ display: flex;
+}
+
+nav li a{
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: lighter;
+  display: flex;
+}
+
+nav li a:hover {
+color; black;
+}
+
+.products {
+  padding: 35px;
+  display: flex;
+  justify-content: center;
+
+}
+
+.product {
+  padding: 0px;
+  margin-top: -75px;
+}
+.product .content{
+  background-color: white;
+  padding: 15px;
+  text-align: center;
+}
+
+.img_content{
+  text-align: center;
+}
+
+
+}
+/* ________________Introducción y títulos______________________________________________ */
+.Introduccion{
+  padding-top: 60px;
+  text-align: center;
+  font-family: Helvetica;
+}
+
+h1.titulo01 {
+
+  color: black;
+  padding-top:50px;
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+
+}
+h2.titulo02 {
+  color: black;
+  padding:10px;
+  text-align: center;
+  font-size: 30px;
+  font-weight: lighter;
+
+}
+
+h3.titulo03 {
+  color: black;
+  padding:10px;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 100;
+
+}
+
+h4.titulo04 {
+  color: gray;
+  padding:10px;
+  text-align: left;
+  font-size: 30px;
+  font-weight: 100;
+
+}
+p.parrafos {
+  color: gray;
+  text-align: center;
+  font-size: 30px;
+  font-weight: lighter;
+
+}
+.Introduccion{
+  padding-top: 60px;
+  text-align: center;
+  font-family: Helvetica;
+}
+
+/* <!-- adorno 01 banner --> */
+.banner{
+    background-image: url("../imágenes/banner01.svg");
+    background-size: cover;
+    background-position: center top;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+  }
+
+/*  ______________________________Beneficios_________________________________  */
+
+
+.beneficios{
+  display: flex;
+  justify-content: center;
+  padding-bottom: 30px;
+
+}
+
+.beneficio {
+  text-align: center;
+  padding: 40px;
+  padding-top: 50px;
+}
+
+.text_beneficio{
+  line-height: 18px;
+  color: #4B4B4B;
+  margin-top: -15px;
+}
+
+
+/*  ______________________________Clientes/menciones_________________________________  */
+
+
+  .menciones{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding: 0px;
+
+  }
+  .content_img {
+    background-color: white;
+    padding:0px;
+  }
+}
+.mencion{
+  text-align: center;
+  padding: 20px;
+}
+.content_mencion{
+background-color: white;
+padding-bottom: 10px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ________________________________Imagen del inicio____________________________ */
+.img_inicial {
+  background-image: url("../imágenes/imagen inicial.svg");
+  background-size: cover;
+  background-position: center top;
+  display: flex;
+  justify-content: top;
+  max-height: -900px;
+
+
+}
+/* ________________________________botón de compra_________________________ */
+.main_button{
+  background-color: black;
+  width: 100px;
+  padding: 10px;
+  font-size: 12px;
+  color: white;
+  border: 0px;
+  text-decoration: none;
+}
+
+
+/* -------------------------------Modulo de pago------------------------------------ */
+.modulo_pago{
+  background-color: white;
+  padding: 10px;
+}
+.modulo_pago_images{
+  max-width: 500px;
+  margin: auto;
+}
+
+.data{
+  margin-top: 10px;
+  width: 100%;
+  height: 32px;
+  border-radius: 2px:
+  border: 1px solid #e6e5e9;
+  box-sizing: border-box;
+}
+.modulo_pago .main_button{
+  padding: 10px;
+}
+
+
+
+
+
+/*__________________ AQUÍ COMIENZA VENTA DE PRODUCTOS __________________*/
+.contenerdor{
+  justify-content:
+
+
+}
+
+/*__________________ AQUÍ COMIENZA Preguntas frecuentes __________________*/
+h1.PF{
+  text-align: left;
+  padding-left: 125px;
+  font-size: 30px;
+
+
+}
+h2.PFp{
+  text-align: left;
+  padding-left: 125px;
+  color: black;
+  font-size: 25px;
+  font-weight: normal;
+  padding-top: 20px;
+}
+.Preguntas_frecuentes{
+  padding: 100px;
+}
+h3.cont_preguntas{
+  text-align: left;
+  padding-left: 125px;
+  color: gray;
+  font-size: 25px;
+  font-weight: lighter;
+  font-style: italic;
+}
+/*  ___________________________Terminos y condiciones___________________________________________  */
+.Introduccion_TC{
+padding: 30px;
+}
+.Terminos_y_condiciones{
+  justify-content: center;
+  padding: 100px;
+}
+h3.TC{
+  text-align: left;
+  color: gray;
+  font-size: 25px;
+  font-weight: lighter;
+  font-style: italic;
+}
+
+
+
+
+/*__________________________ Espacio de Productos___________________________________________*/
+h1.Container_productos{
+  text-align: left;
+  padding: 90px;
+  font-size: 50px;
+  font-weight: bold;
+}
+h3.bolsas{
+  color: black;
+  padding:10px;
+  text-align: left;
+  font-size: 50px;
+  font-weight: 100;
+  font-weight: bold;
+
+
+}
+p.precio{
+  color: gray;
+  text-align: left;
+  font-size: 30px;
+  font-weight: lighter;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*  __________________________________Footer____________________________________________  */
+
+
+
+footer {
+justify-content: space-between;
+font-size: 12px;
+background-color: #707070;
+padding: 10px;
+margin-top: 105px;
+color: white;
+
+}
+footer ul{
+  display: flex;
+}
+footer li {
+  padding-left: 20px;
+  list-style: none;
+
+}
+footer li a {
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+  padding-left: 10px
+}
+
+.avo_footer{
+  justify-content: center;
+  font-size: 25px;
+  font-weight: bold;
+  padding: 30px;
+
+}
+.redes_sociales{
+  padding-left: 30px;
+
+
+}
+.opciones_footer{
+  display: flex;
+  text-align: left;
+  font-size: 20px;
+padding: 30px;
+padding-left: 30px;
+}
